@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* NAVBAR SECTION */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 100px;
+    font-size:1.5rem;
+}
+/* RIGHT SECTION */
+.intro-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.headphone-div{
+    position: relative;
+}
+img[alt="discount"]{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: 1;
+    transform: translate(-47px,260px);
+}
+img[alt="headphone"]{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    transform: translate(8px,13px);
+}
+.discount-content{
+    position: absolute;
+    transform: translate(-25px,290px);
+    z-index: 2;
+    text-align: center;
+    color: white;
+}
+.action-btn{
+    position: absolute;
+    transform: translate(150px,570px);
+    padding: 15px;
+    width: 180px;
+    border-radius: 25px;
+    background-color: #fe5e35;
+    color: white;
+    font-family: poppins;
+    border-color: #fe5e35 ;
+}
+/* .dots{
+    position: absolute;
+    transform: translate(100px,500px);
+} */
+.dot{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+   
+  }
+  .dots{
+    position: absolute;
+    transform: translate(175px,500px);
+  }
+  .dot.yellow-dot{
+    background-color: yellow;
+  }
+  .dot.tomato-dot{
+    background-color: tomato;
+    margin-left: 20px;
+  }
+  .dot.black-dot{
+    background-color: black;
+    margin-left: 20px;
+  }
+/* left section */
+.left-section{
+    margin-left: 115px;
+    margin-top: 100px;
+}
+h3{
+    font-size: 3.0rem;
+    font-family: poppins;
+    font-weight:lighter;
+}
+h1{
+    font-size: 3.5rem;
+    font-family: poppins;
+    font-weight:900px;
+}
+.sub-headline{
+    font-size: 2.0rem;
+    margin-top: 8px;
+    margin-left: 80px;
+    font-family: poppins;
+}
+.text{
+    font-size: 1.0rem;
+    margin-top: 60px;
+}
+.action-btns>*{
+    position: absolute;
+    transform: translate(5px,25px);
+    background-color: #fe5e35;
+    color: white;
+    font-family: poppins;
+    border-color: #fe5e35 ;
+}
+img[alt="plus"]{
+    background-color: #fe5e35;
+    border-radius: 50%;
+    font-family: poppins;
+}
+.action-btns>:nth-child(2){
+    position:absolute;
+    z-index:5;
+    background-color:#fe5e35;
+    transform: translate(227px,25px);
+
+}   
+
