@@ -11,7 +11,7 @@ Product_Landing_Page_Project_-7
 
 ## Project Thumbnail👇
 
-![thumbnail](https://github.com/webdevankur/WebDesign_Landing_Page_Project_8/blob/main/thumbnail.png)
+![thumbnail](https://github.com/webdevankur/Product_Landing_Page_Project_-7/blob/main/thumbnail.png)
 
 
 ## What have i learned in this Project
