@@ -17,9 +17,9 @@ Product_Landing_Page_Project_-7
 ## What have i learned in this Project
 •	CSS Flexbox
 
-•	Background image and its properties
+•	nth-child Selector
 
-•	picking color from an image to implement on my website
+•	CSS positions
 
 •	Button customization
 
